@@ -53,6 +53,51 @@
           "release_order": 10
         }
       }
+    },
+    {
+      "name": "dsh-plugin-registry-tools",
+      "title": {
+        "en": "Registry tools",
+        "ru": "Инструменты реестра"
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1795203147,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/MrBlackD/my-dsh-plugins",
+            "commit": "427440dd0c880bdd6e1ad24a7d62e04265c9af63",
+            "path": "packages/dsh-plugin-registry-tools"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        }
+      ],
+      "description": {
+        "en": "Lets the model list the plugins published in the personal registry and read their exact pinned install specs.",
+        "ru": "Позволяет модели перечислить плагины из личного реестра и получить точные install-спецификации, закреплённые за коммитом."
+      },
+      "icon": "icons/dsh-plugin-registry-tools.svg",
+      "author": "Denis (MrBlackD)",
+      "homepage": "https://github.com/MrBlackD/my-dsh-plugins/tree/427440dd0c880bdd6e1ad24a7d62e04265c9af63/packages/dsh-plugin-registry-tools",
+      "repository": {
+        "url": "https://github.com/MrBlackD/my-dsh-plugins",
+        "directory": "packages/dsh-plugin-registry-tools"
+      },
+      "metadata": {
+        "category": "tools",
+        "labels": [
+          "windows",
+          "linux",
+          "steam-deck",
+          "offline"
+        ],
+        "sortKeys": {
+          "release_order": 100
+        }
+      }
     }
   ],
   "metadata": {
