@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Denis's DSH plugins",
+    "ru": "Плагины Denis для DSH"
+  },
+  "description": {
+    "en": "Personal DeepSeek Harness plugins, released from a private monorepo. Every listed version is an immutable Git tag pinned to a full commit SHA.",
+    "ru": "Личные плагины DeepSeek Harness из приватного монорепозитория. Каждая версия — неизменяемый Git-тег с полным SHA коммита."
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-model-favorites",
+      "title": {
+        "en": "Model favorites",
+        "ru": "Избранные модели"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795202217,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/MrBlackD/my-dsh-plugins",
+            "commit": "af0d720b25dbc1d18dd46dff1dbbea8a7a5f2d24",
+            "path": "packages/dsh-plugin-model-favorites"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        }
+      ],
+      "description": {
+        "en": "Star models in the composer's model menu and pin them at the top with their provider names.",
+        "ru": "Звёздочка у каждой модели в меню композера и закреплённый блок избранных моделей с именами провайдеров."
+      },
+      "icon": "icons/dsh-plugin-model-favorites.svg",
+      "author": "Denis (MrBlackD)",
+      "homepage": "https://github.com/MrBlackD/my-dsh-plugins/tree/af0d720b25dbc1d18dd46dff1dbbea8a7a5f2d24/packages/dsh-plugin-model-favorites",
+      "repository": {
+        "url": "https://github.com/MrBlackD/my-dsh-plugins",
+        "directory": "packages/dsh-plugin-model-favorites"
+      },
+      "metadata": {
+        "category": "models",
+        "labels": [
+          "windows",
+          "linux",
+          "steam-deck",
+          "offline"
+        ],
+        "sortKeys": {
+          "release_order": 10
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "ru": "Интерфейс"
+        }
+      },
+      "models": {
+        "title": {
+          "en": "Models",
+          "ru": "Модели"
+        }
+      },
+      "tools": {
+        "title": {
+          "en": "Tools",
+          "ru": "Инструменты"
+        }
+      },
+      "voice": {
+        "title": {
+          "en": "Voice",
+          "ru": "Голос"
+        }
+      }
+    },
+    "labels": {
+      "windows": {
+        "title": {
+          "en": "Windows",
+          "ru": "Windows"
+        }
+      },
+      "linux": {
+        "title": {
+          "en": "Linux",
+          "ru": "Linux"
+        }
+      },
+      "steam-deck": {
+        "title": {
+          "en": "Steam Deck",
+          "ru": "Steam Deck"
+        }
+      },
+      "offline": {
+        "title": {
+          "en": "Works offline",
+          "ru": "Работает офлайн"
+        }
+      },
+      "experimental": {
+        "title": {
+          "en": "Experimental",
+          "ru": "Экспериментальный"
+        }
+      }
+    },
+    "sortKeys": {
+      "release_order": {
+        "title": {
+          "en": "Release order",
+          "ru": "Порядок выпуска"
+        },
+        "order": "desc"
+      }
+    }
+  }
+}
