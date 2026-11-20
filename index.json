@@ -62,6 +62,19 @@
       },
       "versions": [
         {
+          "version": "0.2.0",
+          "publishTimestamp": 1795203708,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/MrBlackD/my-dsh-plugins",
+            "commit": "ea3d4717009d4f42fe2c1f12a17549cf34c970d3",
+            "path": "packages/dsh-plugin-registry-tools"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        },
+        {
           "version": "0.1.1",
           "publishTimestamp": 1795203147,
           "source": {
@@ -81,7 +94,7 @@
       },
       "icon": "icons/dsh-plugin-registry-tools.svg",
       "author": "Denis (MrBlackD)",
-      "homepage": "https://github.com/MrBlackD/my-dsh-plugins/tree/427440dd0c880bdd6e1ad24a7d62e04265c9af63/packages/dsh-plugin-registry-tools",
+      "homepage": "https://github.com/MrBlackD/my-dsh-plugins/tree/ea3d4717009d4f42fe2c1f12a17549cf34c970d3/packages/dsh-plugin-registry-tools",
       "repository": {
         "url": "https://github.com/MrBlackD/my-dsh-plugins",
         "directory": "packages/dsh-plugin-registry-tools"
@@ -91,8 +104,7 @@
         "labels": [
           "windows",
           "linux",
-          "steam-deck",
-          "offline"
+          "steam-deck"
         ],
         "sortKeys": {
           "release_order": 100
