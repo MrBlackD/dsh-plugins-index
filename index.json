@@ -123,6 +123,77 @@
           "release_order": 100
         }
       }
+    },
+    {
+      "name": "dsh-plugin-voice-gigaam",
+      "title": {
+        "en": "GigaAM voice input",
+        "ru": "Голосовой ввод GigaAM"
+      },
+      "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795463030,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/MrBlackD/my-dsh-plugins",
+            "commit": "75edddd169a69d6549a6bf2a6c6187f707dfec27",
+            "path": "packages/dsh-plugin-voice-gigaam"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1795462714,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/MrBlackD/my-dsh-plugins",
+            "commit": "263b1c2ae4e19990865165641de1e100c4939b95",
+            "path": "packages/dsh-plugin-voice-gigaam"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1795462344,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/MrBlackD/my-dsh-plugins",
+            "commit": "635e8c0e0751b8dd11c5aa0352a844db3c65c0cd",
+            "path": "packages/dsh-plugin-voice-gigaam"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        }
+      ],
+      "description": {
+        "en": "Local Russian dictation for the microphone button with filler cleanup, three GigaAM v3 variants, and a term dictionary that restores Latin spelling.",
+        "ru": "Локальная русская диктовка по кнопке микрофона: три варианта GigaAM v3, чистка «а-э» и слов-паразитов, словарь терминов для латиницы."
+      },
+      "icon": "icons/dsh-plugin-voice-gigaam.svg",
+      "author": "Denis (MrBlackD)",
+      "homepage": "https://github.com/MrBlackD/my-dsh-plugins/tree/75edddd169a69d6549a6bf2a6c6187f707dfec27/packages/dsh-plugin-voice-gigaam",
+      "repository": {
+        "url": "https://github.com/MrBlackD/my-dsh-plugins",
+        "directory": "packages/dsh-plugin-voice-gigaam"
+      },
+      "metadata": {
+        "category": "voice",
+        "labels": [
+          "windows",
+          "linux",
+          "offline",
+          "russian"
+        ],
+        "sortKeys": {
+          "release_order": 40
+        }
+      }
     }
   ],
   "metadata": {
@@ -181,6 +252,12 @@
         "title": {
           "en": "Experimental",
           "ru": "Экспериментальный"
+        }
+      },
+      "russian": {
+        "title": {
+          "en": "Russian speech",
+          "ru": "Русская речь"
         }
       }
     },
