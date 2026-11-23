@@ -132,8 +132,21 @@
       },
       "versions": [
         {
+          "version": "0.2.3",
+          "publishTimestamp": 1795463236,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/MrBlackD/my-dsh-plugins",
+            "commit": "a364c9e367bbd36b507ce26af3134b158d328c7a",
+            "path": "packages/dsh-plugin-voice-gigaam"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        },
+        {
           "version": "0.2.2",
-          "publishTimestamp": 1795463030,
+          "publishTimestamp": 1795463031,
           "source": {
             "type": "git",
             "url": "https://github.com/MrBlackD/my-dsh-plugins",
@@ -177,7 +190,7 @@
       },
       "icon": "icons/dsh-plugin-voice-gigaam.svg",
       "author": "Denis (MrBlackD)",
-      "homepage": "https://github.com/MrBlackD/my-dsh-plugins/tree/75edddd169a69d6549a6bf2a6c6187f707dfec27/packages/dsh-plugin-voice-gigaam",
+      "homepage": "https://github.com/MrBlackD/my-dsh-plugins/tree/a364c9e367bbd36b507ce26af3134b158d328c7a/packages/dsh-plugin-voice-gigaam",
       "repository": {
         "url": "https://github.com/MrBlackD/my-dsh-plugins",
         "directory": "packages/dsh-plugin-voice-gigaam"
